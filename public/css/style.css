@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #005e5e9f;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh ;
+    font-family: arial;
+    padding-top: 1rem;
+}
+form {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem ;
+}
+
+form input {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.1em;
+    color: rgba(0,0,0,.5);
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+form button {
+    height: 46px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 30px;
+    top: 0;
+    right: -1px;
+    background-color:lightcyan;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: rgba(0,0,0,.5);
+}
+
+h2 {
+    padding: 0 40% ;
+}
+
+img {
+    width: 200px;
+}
+
+.resultBox{
+    padding: 10px 20px;
+    background-color:lightcyan;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.resultBox.show {
+    display: flex;
+}
+
+.movieName {
+    font-size: 1.1em;
+    color:maroon ;
+}
+.movieDesc{
+    font-size: 1.1em;
+    color: darkslateblue;
+
+}
+
+.errMsg {
+    font-size: 1.1em ;
+    color: white ;
+}
